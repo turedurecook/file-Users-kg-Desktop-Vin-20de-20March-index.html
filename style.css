@@ -41,16 +41,18 @@ section p {
 }
 
 footer {
-  margin-top: 32px;
-  padding: 64px;
-  border-top: 1px solid black;
+  margin-top: 32px auto;
+  padding: 64px auto;
+  /* border-top: 1px solid black; */
   text-align: center;
-  background: #333;
+  background: #222;
+  /* background: #333; */
   /* background: pink; */
 }
 
 small {
-  color: #bbb;
+  color: white;
+  margin-top: 16px;
 }
 
 address {
@@ -63,14 +65,25 @@ a:hover {
 }
 
 .locate {
-  position: relative;
-  top: 32px;
-  left: 256px;
+  display: inline-block;
+  margin: 32px auto;
+  /* position: relative; */
+  text-align: center;
+
 }
 
 .locate a {
   font-style: normal;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #bbb;
+  color: white;
 
+}
+
+/* large screen  */
+
+@media (max-width: 600px) {
+
+  section {
+    display: inline-block;
+  }
 }
