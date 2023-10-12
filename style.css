@@ -1,9 +1,9 @@
 body {
   display: inline-block;
   margin: 0;
-  background-image: url(1BF33A8E-5450-402F-B999-778E631DAF39_1_201_a.jpeg);
-  /* background-color: rgba(255, 255, 255, 0.4);
-  background-blend-mode: overlay; */
+  background-image: url(1BF33A8E-5450-402F-B999-778E631DAF39_1_201_a.png);
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: overlay;
 }
 
 header p {
